@@ -17,7 +17,8 @@ img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.aaa
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -53,11 +54,13 @@ img {
   padding: 0px;
 }
 
-.item, .description {
+.item, 
+.description {
   list-style: none;
 }
 
-input,button{
+input, 
+button{
   outline: none;
 }
 
@@ -143,32 +146,46 @@ input #new-task {
   width: 226px;
 }
 
-button .delete img {
+button
+.delete
+img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button .delete img:hover {
+button
+.delete
+img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.items #completed-tasks label {
+.items
+#completed-tasks
+label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.items .item input[type="text"] {
+.items
+.item
+input[type="text"] {
    display: none;
 }
 
-.items .item .edit-mode input[type="text"] {
+.items
+.item
+.edit-mode 
+input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.items .item .edit-mode label {
+.items 
+.item 
+.edit-mode 
+label {
   display: none;
 }
