@@ -44,10 +44,12 @@
   margin: 0;
   padding: 0px;
 }
-.item, .title {
+.item,
+.title {
   list-style: none;
 }
-.thumb, .btn{
+.thumb,
+.btn {
   outline: none;
 }
 .btn {
@@ -62,7 +64,8 @@
 .btn:hover {
   color: #3a3a3a;
 }
-.edit, .delete {
+.edit,
+.delete {
     background: none;
     border: 0px;
     color: #888;
@@ -129,7 +132,7 @@
   font-size: 18px;
   width: 226px;
 }
-.item >    .task[type="text"] {
+.item > .task[type="text"] {
   width: 226px;
 }
 .delete .img {
