@@ -4,19 +4,21 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .desc {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .desc .img {
   width: 100%;
 }
+
 .desc .more {
   font-family: fantasy, cursive;
 }
-
 
 @media (max-width:768px) {
 
@@ -26,32 +28,37 @@
 
 }
 
-
 .container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .wrapper {
   display: flex;
 }
+
 .list {
   margin: 0;
   padding: 0px;
 }
+
 .item,
 .title {
   list-style: none;
 }
+
 .thumb,
 .btn {
   outline: none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -61,9 +68,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 .edit,
 .delete {
     background: none;
@@ -74,7 +83,10 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
+
 /* Heading */
+
 .title,
 .task[for="new-task"] {
   color: #333;
@@ -85,6 +97,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -97,6 +110,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task[type="text"]:focus {
   color: #333;
 }
@@ -106,11 +120,14 @@
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
 
+
 /* Task list */
+
 .item {
   overflow: hidden;
   padding: 20px 0;
@@ -119,6 +136,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .item > * {
   vertical-align: middle;
 }
@@ -126,31 +144,39 @@
 .item > .task[type="checkbox"] {
   margin: 0 10px;
 }
+
 .item > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .item > .task[type="text"] {
   width: 226px;
 }
+
 .delete .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete .img:hover {
   transform: rotateZ(0);
 }
 
+
 /* Completed */
+
 #completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
 
+
 /* Edit Task */
+
 .list .item .task[type=text] {
   display: none;
 }
